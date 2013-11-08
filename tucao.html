@@ -1,0 +1,21 @@
+<script type="text/template" id="tpl_0">
+  <div class="tc-item" style="left:<%= x %>px; top:<%= y %>px;">
+      <div class="tc-item-bg"></div>
+      <div class="tc-item-cnt">
+          <div class="tc-item-pic">
+              <a href="http://manhua.weibo.com/<%= userId %>" target="_blank">
+                  <img src="<%= userImg %>">
+              </a>
+          </div>
+
+          <div class="tc-item-txt">
+              <%= txtStr %>
+          </div>
+
+      </div>
+      <div class="tc-item-kit">
+          <a class="tc-item-forward" data-itemId="<%= itemId %>" title="转发"></a>
+          <a class="tc-item-close" data-itemId="<%= itemId %>" title="关闭"></a>
+      </div>
+  </div>
+</script>
